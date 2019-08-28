@@ -1,0 +1,14 @@
+import random
+
+Dice = []
+
+for i in range (0, 6):
+    num = random.randint(1, 6)
+    while num in Dice:
+        num = random.randint(1, 6)
+    Dice.append(num)
+
+Dice.sort()
+
+
+print(num)
