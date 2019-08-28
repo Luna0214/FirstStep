@@ -1,0 +1,15 @@
+import random
+
+tie = []
+l = ["Red", "Blue", "Gold", "Gray"]
+for i in range (0, 1):
+    num = random.randint(1, 3)
+    while num in tie:
+        num = random.randint(1, 3)
+    tie.append(num)
+
+tie.sort()
+
+
+print("Today's a tie color is", l[num])
+print("Total number of ties are", len(l))
