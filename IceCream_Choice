@@ -1,0 +1,7 @@
+import random
+Ice = ["mint", "Strawberry", "Vanilla", "Chocolate"]
+
+Num = random.randint(0, 3)
+
+print("Today's IceCream Flavor is ", Ice[Num])
+
